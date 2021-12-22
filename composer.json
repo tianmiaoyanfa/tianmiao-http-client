@@ -1,0 +1,16 @@
+{
+    "name": "tianmiao/http-client",
+    "description": "tianmiao Http Client",
+    "require": {
+        "psr/http-client": "^1.0",
+        "kriswallsmith/buzz": "^1.0"
+    },
+    "provide": {
+        "psr/http-client-implementation": "1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tianmiao\\HttpClient\\": "src"
+        }
+    }
+}
