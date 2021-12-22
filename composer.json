@@ -2,7 +2,7 @@
     "name": "tianmiao2/http-client",
     "description": "tianmiao Http Client",
     "require": {
-        "psr/http-client": "^1.1",
+        "psr/http-client": "^1.3",
         "kriswallsmith/buzz": "^1.0"
     },
     "provide": {
