@@ -3,6 +3,7 @@
     "description": "tianmiao Http Client",
     "require": {
         "psr/http-client": "^1.0",
+        "tianmiao2/http-message": "^1.4",
         "kriswallsmith/buzz": "^1.0"
     },
     "provide": {
