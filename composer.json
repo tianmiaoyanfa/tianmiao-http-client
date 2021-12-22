@@ -1,5 +1,5 @@
 {
-    "name": "tianmiao/http-client",
+    "name": "tianmiao2/http-client",
     "description": "tianmiao Http Client",
     "require": {
         "psr/http-client": "^1.0",
