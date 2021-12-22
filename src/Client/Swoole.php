@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 /**
- * This file is part of Leonsw.
+ * This file is part of Tianmiao.
  *
  * @link     https://leonsw.com
  * @document https://docs.leonsw.com
  * @contact  leonsw.com@gmail.com
  * @license  https://leonsw.com/LICENSE
  */
-namespace Leonsw\HttpClient\Client;
+namespace Tianmiao\HttpClient\Client;
 
 use Buzz\Client\AbstractClient;
 use Buzz\Client\BuzzClientInterface;

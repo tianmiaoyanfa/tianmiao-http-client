@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 /**
- * This file is part of Leonsw.
+ * This file is part of Tianmiao.
  *
  * @link     https://leonsw.com
  * @document https://docs.leonsw.com
  * @contact  leonsw.com@gmail.com
  * @license  https://leonsw.com/LICENSE
  */
-namespace Leonsw\HttpClient;
+namespace Tianmiao\HttpClient;
 
 use Buzz\Client\Curl;
 use Buzz\Client\FileGetContents;
 use Buzz\Middleware\MiddlewareInterface;
-use Leonsw\HttpClient\Client\Swoole;
-use Leonsw\HttpClient\Middleware\BaseUrlMiddleware;
-use Leonsw\HttpClient\Middleware\ContentTypeMiddleware;
+use Tianmiao\HttpClient\Client\Swoole;
+use Tianmiao\HttpClient\Middleware\BaseUrlMiddleware;
+use Tianmiao\HttpClient\Middleware\ContentTypeMiddleware;
 use Nyholm\Psr7\Factory\Psr17Factory;
 use Psr\Http\Message\ResponseInterface;
 
